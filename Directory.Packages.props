@@ -1,0 +1,25 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <EnablePackageVersionOverride>false</EnablePackageVersionOverride>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="coverlet.collector" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageVersion>
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageVersion Include="SourceKit.Analyzers.Collections" Version="1.0.50" />
+    <PackageVersion Include="SourceKit.Analyzers.Enumerable" Version="1.0.50" />
+    <PackageVersion Include="SourceKit.Analyzers.MemberAccessibility" Version="1.0.31" />
+    <PackageVersion Include="SourceKit.Analyzers.Nullable" Version="1.0.50" />
+    <PackageVersion Include="SourceKit.Analyzers.Properties" Version="1.0.50" />
+    <PackageVersion Include="Itmo.Dev.Editorconfig" Version="1.0.12" />
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.507" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageVersion>
+  </ItemGroup>
+</Project>

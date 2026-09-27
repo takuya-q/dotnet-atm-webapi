@@ -1,0 +1,19 @@
+﻿<Solution>
+  <Folder Name="/common/">
+    <File Path="Directory.Packages.props" />
+    <File Path="Directory.Build.props" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src\Lab5\Lab5.csproj" Type="C#" />
+  </Folder>
+  <Folder Name="/src/lab-5/">
+    <Project Path="src\Lab5.Application\Lab5.Application.csproj" />
+    <Project Path="src\Lab5.Domain\Lab5.Domain.csproj" />
+    <Project Path="src\Lab5.Infrastructure\Lab5.Infrastructure.csproj" />
+    <Project Path="src\Lab5.Presentation\Lab5.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\Lab5.Tests\Lab5.Tests.csproj" Type="C#" />
+  </Folder>
+</Solution>

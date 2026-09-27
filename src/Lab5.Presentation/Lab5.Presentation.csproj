@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <RootNamespace>Itmo.ObjectOrientedProgramming.Lab5.Presentation</RootNamespace>
+    <AssemblyName>Itmo.ObjectOrientedProgramming.Lab5.Presentation</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab5.Application\Lab5.Application.csproj" />
+    <ProjectReference Include="..\Lab5.Infrastructure\Lab5.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
+
